@@ -1,6 +1,6 @@
 Package: regPOspline
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Regression analysis of  arbitrarily censored and left-truncated data under the proportional odds model
 Version: 0.1.0
 Author: Lu Wang and Lianming Wang
 Maintainer: Lu Wang <lu.wang@wne.edu>
