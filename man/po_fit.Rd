@@ -61,6 +61,13 @@ data("IR_diabetes")
 gender <- as.matrix(as.numeric(IR_diabetes[,'gender'] == 'male'))
 po_fit(L = IR_diabetes[,'left'],R = IR_diabetes[,'right'],x = gender,order = 3,nknot = 10)
   }
+
+\examples{
+data("generated_data")
+po_fit(L = generated_data[,'L'],R = generated_data[,'R'], truncation = T,
+       C = generated_data[,'C'], x = generated_data[,c('x_1','x_2')],
+       order = 3,nknot = 9)
+  }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
