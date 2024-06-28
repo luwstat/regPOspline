@@ -58,16 +58,21 @@ Wang,L. and Wang,L.
 \examples{
 library(icenReg)
 data("IR_diabetes")
+# The following example demonstrates the use of the po_fit function with arbitrarily censored data.
+# The data used in this example is from the IR_diabetes dataset. 
+# The variable 'gender' is transformed to a numeric matrix indicating male gender.
+# This example does not involve truncation.
 gender <- as.matrix(as.numeric(IR_diabetes[,'gender'] == 'male'))
-po_fit(L = IR_diabetes[,'left'],R = IR_diabetes[,'right'],x = gender,order = 3,nknot = 10)
-  }
+po_fit(L = IR_diabetes[,'left'], R = IR_diabetes[,'right'], x = gender, order = 3, nknot = 10)
+}
 
 \examples{
+# The following example demonstrates the use of the po_fit function with left-truncated arbitrarily censored data.
+# The data used in this example is generated synthetic data that includes left truncation.
+# The covariates used in this example are 'x_1' and 'x_2'.
 data("generated_data")
-po_fit(L = generated_data[,'L'],R = generated_data[,'R'], truncation = T,
-       C = generated_data[,'C'], x = generated_data[,c('x_1','x_2')],
-       order = 3,nknot = 9)
-  }
+po_fit(L = generated_data[,'L'], R = generated_data[,'R'], truncation = T, C = generated_data[,'C'], x = generated_data[,c('x_1','x_2')], order = 3, nknot = 9)
+}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
