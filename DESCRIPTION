@@ -1,9 +1,9 @@
 Package: regPOspline
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Regression analysis of arbitrarily censored and left-truncated data under the proportional odds model
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Lu Wang and Lianming Wang
+Maintainer: Lu Wang <lu.wang@wne.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
