@@ -4,8 +4,10 @@ Title: Regression analysis of arbitrarily censored and left-truncated data under
 Version: 0.1.0
 Author: Lu Wang and Lianming Wang
 Maintainer: Lu Wang <lu.wang@wne.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: we study regression analysis of arbitrarily censored and left-truncated data under a popular semiparametric proportional odds model. 
+A new estimation approach via an Expectation and Maximization algorithm (EM) is developed based on a novel data augmentation involving latent exponential and
+multinomial random variables. The EM algorithm has appealing features such as being robust to initial values, converging fast, and providing variance estimates in
+a simple closed form. 
 License: MIT License
 Encoding: UTF-8
 LazyData: true
