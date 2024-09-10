@@ -6,6 +6,6 @@ Author: Lu Wang and Lianming Wang
 Maintainer: Lu Wang <lu.wang@wne.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT License
 Encoding: UTF-8
 LazyData: true
