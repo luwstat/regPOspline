@@ -1,0 +1,9 @@
+# NAMESPACE
+
+# Export the main function
+export(po_fit)
+
+# Imports from other packages
+importFrom(nleqslv, nleqslv)
+importFrom(Matrix, Matrix)
+importFrom(ggplot2, ggplot, geom_line, aes, labs)
