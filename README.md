@@ -8,3 +8,10 @@ library(devtools)
 remotes::install_github("luwstat/regPOspline", dependencies = TRUE)
 library(regPOspline)
 
+To know details of the function po_fit, please type the following code in R:
+```r
+?po_fit
+
+To try the function on the built-in generated data, please try the example provided in R:
+```r
+?generated_data
