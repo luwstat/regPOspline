@@ -19,7 +19,7 @@ Lower bound of the observed intervals, a length n vector.
 Upper bound of the observed intervals, a length n vector.
 }
   \item{truncation}{
-Logical, if TRUE the left trunction times for each observation should be provide in argument C. The default if FALSE.
+Logical, if TRUE the left trunction times for each observation should be provide in argument C. The default is FALSE.
 }
   \item{C}{
 Left truncation times of the observations, a length n vector. Applicable if \code{truncation} is \code{TRUE}.
@@ -31,7 +31,7 @@ Covariate matrix, an n x p matrix, where p is the number of covariates.
 Define a length p vector as the initial value of the regression coefficients.
 }
   \item{order}{
-The order of I-spline basis function.
+The order of I-spline basis function. The default value is 3.
 }
   \item{equal_space}{
 Logical, if \code{TRUE} knots are placed evenly across the observed intervals based on the input data set; if FALSE knots should be specified by the user(see \code{myknots}). The default is TRUE.
